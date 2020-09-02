@@ -15,7 +15,6 @@ begin
    loop
       if MicroBit.Buttons.State (Button_A) = Pressed then
          DirectionChange := -1;
-
       end if;
       if MicroBit.Buttons.State (Button_B) = Pressed then
          DirectionChange := 1;
